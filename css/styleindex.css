@@ -26,6 +26,14 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Color de fondo más claro */
+    color: #ddd; /* Color del texto más claro */
+    border-radius: 5px; /* Bordes redondeados al pasar el mouse */
 }
 
 .hero {
